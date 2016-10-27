@@ -11,11 +11,13 @@ import java.io.*;
  * @author dominic
  */
 public class ParseToken {
-    
+  
     public static void main(String[] args){
-        int i,x =0, h = 0;
-        String input[] = new String[1000];
+        int i,x =0, h = 0, dupes =0; 
+       //Create array to store swtrings in
+        String input[] = new String[100000];
         
+                //Create input stream
                 InputStream tokens2 = ParseToken.class.getResourceAsStream("tokens2.txt"); 
                 
                 Scanner scan = new Scanner(tokens2);
@@ -30,19 +32,23 @@ public class ParseToken {
                         System.out.println(s);
                     }
                     //set input i to equal s 
+                   
                    input[i] = s;
                     
                 }
-                
+             
                 //Create a loop that checks if there is a dupe 
              
                     for(x=0; x<=i; x++){
-                        for(h =0; h <= i; )
-                        if (input[x] == input[h])
+                        for(h =0; h <= i; h++){
+                        if (input[x] == input[h]){
+                            dupes++;                       
+                        }//end if
                        
                         
-                    }
-                    
+                    }// end nested for
+                    }//end for 
+                    System.out.println(dupes);
             
                 
                 //IF YOU WANT to check for an int in a mix of strings , check if there is a string then check if theres and int if not int don't forget to move scanner to next
