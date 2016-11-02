@@ -27,6 +27,7 @@ public class Practical {
          
  
          //Loops for as long as there is a next number
+        // for(; scan.hasNextInt(); ) also works 
          for(int i = 0; scan.hasNextInt(); i++){
              //This will count how many numbers there are
              numberOfNumbers++;
