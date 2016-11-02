@@ -1,0 +1,11 @@
+From Wikipedia
+NetBeans is a software development platform written in Java. The NetBeans Platform allows 
+applications to be developed from a set of modular software components called modules. Applications 
+based on the NetBeans Platform, including the NetBeans integrated development environment (IDE), can 
+be extended by third party developers.
+The NetBeans IDE is primarily intended for development in Java, but also supports other languages, 
+in particular PHP, C/C++ and HTML5.
+NetBeans is cross-platform and runs on Microsoft Windows, Mac OS X, Linux, Solaris and other 
+platforms supporting a compatible JVM.
+The NetBeans Team actively support the product and seek feature suggestions from the wider 
+community. Every release is preceded by a time for Community testing and feedback
