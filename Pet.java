@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package general;
-import java.util.Scanner; 
 /**
  *
  * @author domin
@@ -35,7 +34,7 @@ public class Pet { //make this private
     public void setType(String type){
         this.type = type;
     }
-    //not sure what this does 
+   
     
        @Override        //turns object into string to output DO NOT NORMALLY NEED TO DO THAT BUT CAN DO IF NECESSARY 
     public String toString() {
